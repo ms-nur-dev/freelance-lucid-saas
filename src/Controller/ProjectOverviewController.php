@@ -12,7 +12,8 @@ final class ProjectOverviewController extends AbstractController
     public function index(): Response
     {
         return $this->render('project_overview/index.html.twig', [
-            'github_url' => 'https://github.com/sultan8080/Freelance_Lucid',
+            'github_url' => 'https://github.com/ms-nur-dev/Freelance_Lucid_SAAS',
+            'linkedin_url' => 'https://https://www.linkedin.com/in/ms-nur-dev/',
         ]);
     }
 }
