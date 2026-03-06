@@ -13,7 +13,7 @@ final class ProjectOverviewController extends AbstractController
     {
         return $this->render('project_overview/index.html.twig', [
             'github_url' => 'https://github.com/ms-nur-dev/Freelance_Lucid_SAAS',
-            'linkedin_url' => 'https://https://www.linkedin.com/in/ms-nur-dev/',
+            'linkedin_url' => 'https://www.linkedin.com/in/ms-nur-dev/',
         ]);
     }
 }
