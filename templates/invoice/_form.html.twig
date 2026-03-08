@@ -218,7 +218,7 @@
 					</tr>
 				</thead>
 
-				<tbody {% if has_prototype %} data--collection-target="collectionContainer" {% endif %} class="divide-y divide-white/5">
+				<tbody {% if has_prototype %} data-form-collection-target="collectionContainer" {% endif %} class="divide-y divide-white/5">
 					{% for item in form.invoiceItems %}
 						<tr class="group transition-all duration-200 hover:bg-white/5" data-invoice-summary-target="row">
 							<td class="px-2 py-5 align-top first:pl-6">
